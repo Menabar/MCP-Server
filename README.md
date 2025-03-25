@@ -42,7 +42,7 @@ If the MCP server selects the wrong tool, you can tell it to specifically not us
 
 It is not always necessary to tell it to specify the full path, but occasionally it will decide to use ```.``` as the directory instead of the full path, which the server needs.
 
-The MCP server must trust the client to tell it what local directory to check. If desired, you can hard code the path on line 120 of server.js.
+The MCP server must trust the client to tell it what local directory to check. If desired, you can hard code the path on lines 120 and 143 of server.js.
 
 ## Functionality for the future
 
